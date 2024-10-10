@@ -1,0 +1,32 @@
+.listItemButton1 {
+  border-radius: 12px !important;
+  padding: 5px !important;
+  /* width: 200px !important; */
+}
+.listItemButton1:hover {
+  background-color: #3778c2 !important;
+}
+.text1 {
+  padding-bottom: 5px;
+  text-transform: capitalize !important;
+}
+.listItemButton1:hover .text1 {
+  color: white;
+}
+.IconContainer {
+  padding: 6px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3778c2 !important;
+}
+.listItemButton1:hover .IconContainer {
+  background-color: white !important;
+}
+.PersonOutlineOutlinedIcon {
+  color: white;
+}
+.listItemButton1:hover .PersonOutlineOutlinedIcon {
+  color: #3778c2 !important;
+}

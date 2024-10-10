@@ -1,0 +1,32 @@
+{
+  "short_name": "Oculabs",
+  "name": "Oculabs",
+  "display": "standalone",
+  "theme_color": "#3778C2",
+  "background_color": "#3778C2",
+  "start_url": "/",
+  "scope": "/",
+  "description": "Oculabs",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

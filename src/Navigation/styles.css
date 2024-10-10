@@ -1,0 +1,48 @@
+.popnoti .MuiPopover-paper {
+  max-width: 500px;
+  min-width: 500px;
+}
+@media (max-width: 768px) {
+  .popnoti .MuiPopover-paper {
+    max-width: 250px;
+    min-width: 250px;
+  }
+}
+.memubarsubData {
+  padding: 0 !important;
+  overflow-y: auto;
+}
+
+.memubarsubData::-webkit-scrollbar {
+  display: none;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: #f4f7fb;
+}
+
+.mainContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.listItemButton:hover {
+  transition: 500ms;
+  background-color: #3778c2 !important;
+}
+.text {
+  white-space: nowrap !important;
+  width: 200px !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  font-size: 16px !important;
+  margin-left: 10px !important;
+  text-transform: capitalize !important;
+}
+.listItemButton:hover .text {
+  color: white;
+}

@@ -1,0 +1,84 @@
+{
+  "name": "oculo-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@bugsnag/browser-performance": "^2.8.0",
+    "@bugsnag/js": "^8.0.0",
+    "@bugsnag/plugin-react": "^8.0.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@fullcalendar/core": "^6.1.8",
+    "@fullcalendar/daygrid": "^6.1.8",
+    "@fullcalendar/interaction": "^6.1.10",
+    "@fullcalendar/react": "^6.1.8",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.3",
+    "@mui/styles": "^5.13.2",
+    "@mui/x-data-grid": "^6.5.0",
+    "@mui/x-date-pickers": "^6.5.0",
+    "@rehooks/online-status": "^1.1.2",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.3",
+    "@testing-library/user-event": "^13.5.0",
+    "@tinymce/tinymce-react": "^4.3.0",
+    "apexcharts": "^3.49.2",
+    "crypto-js": "^4.2.0",
+    "date-fns": "^2.30.0",
+    "firebase": "^9.22.1",
+    "heatmap.js": "^2.0.5",
+    "intro.js": "^7.2.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-apexcharts": "^1.4.1",
+    "react-datepicker": "^4.13.0",
+    "react-device-detect": "^2.1.2",
+    "react-dom": "^17.0.2",
+    "react-google-recaptcha": "^3.1.0",
+    "react-icons": "^4.9.0",
+    "react-lottie": "^1.2.3",
+    "react-otp-input": "^3.0.2",
+    "react-redux": "^7.2.6",
+    "react-render-html": "^0.6.0",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "5.0.0",
+    "react-toastify": "^9.1.3",
+    "redux": "^4.1.2",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1",
+    "sass": "^1.49.9",
+    "socket.io-client": "^4.7.2",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev_deploy": "react-scripts build && aws s3 sync build s3://oculabs-web-dev && aws cloudfront create-invalidation --distribution-id E1M4SIGUICJCT4  --paths '/*'",
+    "uat_deploy": "react-scripts build && aws s3 sync build s3://oculabs-web-uat && aws cloudfront create-invalidation --distribution-id EHJ0O7W7TM8FJ  --paths '/*'",
+    "prod_deploy": "react-scripts build && aws s3 sync build s3://oculabs-web-prod && aws cloudfront create-invalidation --distribution-id E29GXJRFWV3SG8  --paths '/*'"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

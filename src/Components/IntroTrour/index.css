@@ -1,0 +1,92 @@
+/* Apply custom styles to the highlighted element */
+
+.introjs-helperLayer {
+  background-color: #ffffff3b;
+  border-radius: 8px;
+}
+/* Apply custom styles to the tooltip(intro-box) */
+.introjs-tooltip {
+  box-shadow: 5px 10px 15px 10px rgba(87, 87, 87, 0.439);
+  background-color: #f4f7fb;
+  color: #000000;
+  border-radius: 12px;
+}
+
+.introjs-tooltip-title {
+  color: #3772c2;
+}
+
+/* Apply custom styles to the button inside the tooltip */
+.introjs-button {
+  border-radius: 120px;
+  padding-inline: 30px;
+  box-shadow: none !important;
+  outline: none !important; /* Remove outline */
+}
+
+.introjs-disabled {
+  border: none !important;
+  outline: none !important;
+  background-color: #dbdbde !important;
+  color: #3b3c3f !important;
+}
+
+.introjs-nextbutton {
+  border-color: #3772c2 !important;
+  color: #3772c2 !important;
+  font-family: EuropaBold !important;
+}
+.introjs-prevbutton {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.introjs-skipbutton {
+  color: #000000;
+  padding: 1px 5px;
+  /* border: 1px solid; */
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.introjs-skipbutton:hover {
+  color: #3772c2;
+}
+
+/* Apply custom styles to the progressbar */
+.introjs-progress {
+  background-color: #3872c251;
+  border-radius: 5px;
+  height: 5px;
+}
+
+.introjs-progressbar {
+  background-color: #3772c2;
+}
+
+.introjs-dontShowAgain label {
+  background-color: #f4f7fb;
+  font-family: "EuropaRegular";
+}
+
+/* Apply custom styles to the arrow */
+/* .introjs-arrow {
+  border-color: #3772c2;
+} */
+
+/* Apply custom styles to the hint element */
+/* .introjs-hint {
+  background-color: #3772c2;
+  color: #ffffff;
+} */
+
+/* Apply custom styles to the hint reference element */
+/* .introjs-hintReference {
+  border: 2px solid #3772c2;
+  background-color: #ffffff;
+} */
+
+/* Apply custom styles to the backdrop */
+/* .introjs-backdrop {
+  background-color: #3772c2;
+} */

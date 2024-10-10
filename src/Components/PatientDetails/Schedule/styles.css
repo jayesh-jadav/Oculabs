@@ -1,0 +1,61 @@
+.fc-h-event {
+  border: none;
+  background-color: transparent;
+}
+.fc .fc-toolbar-title {
+  font-size: 22px;
+  font-family: "EuropaBold";
+  color: #3b3c3f;
+  margin-left: 10px;
+}
+.fc .fc-button-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.fc-direction-ltr .fc-button-group > .fc-button:not(:last-child) {
+  background-color: white;
+  border-radius: 6px;
+  color: #3778c2;
+  border: 1px solid #3778c2;
+  padding: 6px;
+  font-size: 14px;
+  height: 35px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 500ms;
+}
+.fc-direction-ltr .fc-button-group > .fc-button:not(:last-child):hover {
+  background-color: #3778c2;
+  color: white;
+}
+.fc-direction-ltr .fc-button-group > .fc-button:not(:first-child) {
+  background-color: white;
+  border-radius: 6px;
+  color: #3778c2;
+  border: 1px solid #3778c2;
+  padding: 6px;
+  font-size: 14px;
+  height: 35px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 500ms;
+}
+.fc-direction-ltr .fc-button-group > .fc-button:not(:first-child):hover {
+  background-color: #3778c2;
+  color: white;
+}
+.fc .fc-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.fc-col-header-cell {
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: "EuropaBold";
+}
